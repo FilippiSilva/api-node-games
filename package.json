@@ -1,0 +1,27 @@
+{
+  "name": "api-node-games",
+  "version": "1.0.0",
+  "description": "games catalog",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "db:reset": "rm mydb.sqlite && knex migrate:latest && knex seed:run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Filippi Silva",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-paginate": "^1.0.0",
+    "faker": "^4.1.0",
+    "knex": "^0.15.2",
+    "knex-paginator": "^1.2.0",
+    "pg": "^7.5.0",
+    "sqlite3": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
