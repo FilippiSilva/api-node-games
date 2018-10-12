@@ -16,6 +16,7 @@ app.use('/', [
   require('./src/components/users/usersRoutes'),
   require('./src/components/genres/genresRoutes'),
   require('./src/components/companies/companiesRoutes'),
+  require('./src/components/games/gamesRoutes'),
   // require('./routes/project_routes')
 ])
 

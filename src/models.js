@@ -4,7 +4,8 @@ const knex = require('../config/database')
 const files = [
   './components/users/usersModel',
   './components/genres/genresModel',
-  './components/companies/companiesModel'
+  './components/companies/companiesModel',
+  './components/games/gamesModel'
 ]
 
 let models = {} 
